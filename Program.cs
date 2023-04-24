@@ -18,7 +18,7 @@ class Program {
             Console.WriteLine();
         }
 
-        Console.WriteLine("Enter search mode: ");
+        Console.Write("Enter search mode: ");
         string mode = Console.ReadLine();
 
         switch (mode) {
